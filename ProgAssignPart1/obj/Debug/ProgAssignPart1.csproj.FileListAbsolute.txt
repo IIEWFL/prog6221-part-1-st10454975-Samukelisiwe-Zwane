@@ -1,0 +1,8 @@
+C:\Users\Samu\Documents\prog6221-part-1-st10454975-Samukelisiwe-Zwane\ProgAssignPart1\bin\Debug\ProgAssignPart1.exe.config
+C:\Users\Samu\Documents\prog6221-part-1-st10454975-Samukelisiwe-Zwane\ProgAssignPart1\bin\Debug\ProgAssignPart1.exe
+C:\Users\Samu\Documents\prog6221-part-1-st10454975-Samukelisiwe-Zwane\ProgAssignPart1\bin\Debug\ProgAssignPart1.pdb
+C:\Users\Samu\Documents\prog6221-part-1-st10454975-Samukelisiwe-Zwane\ProgAssignPart1\obj\Debug\ProgAssignPart1.csproj.AssemblyReference.cache
+C:\Users\Samu\Documents\prog6221-part-1-st10454975-Samukelisiwe-Zwane\ProgAssignPart1\obj\Debug\ProgAssignPart1.csproj.CoreCompileInputs.cache
+C:\Users\Samu\Documents\prog6221-part-1-st10454975-Samukelisiwe-Zwane\ProgAssignPart1\obj\Debug\ProgAssignPart1.exe
+C:\Users\Samu\Documents\prog6221-part-1-st10454975-Samukelisiwe-Zwane\ProgAssignPart1\obj\Debug\ProgAssignPart1.pdb
+C:\Users\Samu\Documents\prog6221-part-1-st10454975-Samukelisiwe-Zwane\ProgAssignPart1\bin\Debug\greeting audio.wav
