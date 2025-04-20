@@ -20,20 +20,44 @@ namespace ProgAssignPart1
             switch (changeStringToLowerCase)
             {
                 case "how are you":
-                    return "As your cyber security assistant bot, i am operating at optimal performance so that i can help you stay safe online";
+                    Console.ForegroundColor = ConsoleColor.DarkCyan;
+                    string howAreYouResponse = "As your cyber security assistant bot, i am operating at optimal performance so that i can help you stay safe online";
+                    
+                    return howAreYouResponse;
+                    
                 case "what is your purpose":
-                    return "My purpose is to help you with knowledge regarding cybersecurity so that you can protect yourself form cyber theats";
+                    Console.ForegroundColor = ConsoleColor.DarkCyan;
+                    string purposeResponse = "My purpose is to help you with knowledge regarding cybersecurity so that you can protect yourself form cyber theats";
+                    
+                    return purposeResponse;
                 case "what can i ask about you":
-                    return "You can ask me anything related to staying safe online. I can assist you with the follwing: \n" +
+                    Console.ForegroundColor = ConsoleColor.DarkCyan;
+                    Console.Write("you can ask me anything related to staying safe online! here are some key areas i can assist you with:\n");
+                    Console.ForegroundColor = ConsoleColor.Yellow;
+                    Console.WriteLine("------------------------------------------------------------------------------------------------------");
+                    Console.ForegroundColor = ConsoleColor.Cyan;
+                    string askAboutResponse = "You can ask me anything related to staying safe online. I can assist you with the follwing: \n" +
                         "Creating a strong and unique password \n " +
                         "Identifying and avoiding phishing attemps \n"
                         + "understanding multifactor authentification \n" +
                         "preventing malware infections \n" +
                         "Portecing of personal information \n" +
-                        "safe browsing practice\n"+
-                        "this is a general idea of what you can ask me";
+                        "safe browsing practice";
+                    Console.Write(askAboutResponse);
+                    Console.ForegroundColor = ConsoleColor.Yellow;
+                    Console.WriteLine("");
+                    Console.WriteLine("---------------------------------------------------------------------------------------------------");
+                    Console.ForegroundColor = ConsoleColor.Cyan;
+                    Console.Write("this is a general idea of what you can ask me");
+                    Console.ResetColor();
+
+                    return "";
+
                 default:
-                    return "sorry but i dont quite understand that could you rephrase";
+                    Console.ForegroundColor = ConsoleColor.Cyan;
+                    string defaultResponse = "sorry but i dont quite understand that could you rephrase";
+                    Console.ResetColor();
+                    return defaultResponse;
             }
         }
 
@@ -97,24 +121,31 @@ namespace ProgAssignPart1
             string input;
             do
             {
-                Console.WriteLine("> ");
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.WriteLine(" ");
+
                 input = Console.ReadLine();
 
                 if (input?.ToLower() == "exit")
                 {
+                    Console.ForegroundColor = ConsoleColor.Yellow;
                     Console.WriteLine("stay safe online, goodbye");
                     break;
                 }
                 if (!string.IsNullOrEmpty(input))
                 {
+                   
                     Console.WriteLine(GetBasicResponse(input));
 
 
                 }
                 else
                 {
+                    Console.ForegroundColor = ConsoleColor.Red;
                     Console.WriteLine("please enter your cyber security question.");
                 }
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.WriteLine("please enter your cyber security question");
 
             } while (true);
 
