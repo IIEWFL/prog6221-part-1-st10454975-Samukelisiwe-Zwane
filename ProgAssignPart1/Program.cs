@@ -46,7 +46,7 @@ namespace ProgAssignPart1
                     Console.Write(askAboutResponse);
                     Console.ForegroundColor = ConsoleColor.Yellow;
                     Console.WriteLine("");
-                    Console.WriteLine("---------------------------------------------------------------------------------------------------");
+                    Console.WriteLine("----------------------------------------------------------------------------------------------------");
                     Console.ForegroundColor = ConsoleColor.Cyan;
                     Console.Write("this is a general idea of what you can ask me");
                     Console.ResetColor();
