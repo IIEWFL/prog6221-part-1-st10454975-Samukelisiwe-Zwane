@@ -34,11 +34,11 @@ By completing this part of the assignment, i am now able to:
 
 1.**Clone the Repository:**
     open gitbash
-    git clone https://github.com/IIEWFL/prog6221-part-1-st10454975-Samukelisiwe-Zwane
+    git clone <https://github.com/IIEWFL/prog6221-part-1-st10454975-Samukelisiwe-Zwane>
     cd ProgAssignPart1
 
 
-2.**Ensure .NET SDK is Installed:** This project is written in C#. Make sure you have the .NET SDK installed on your machine. You can download it from [https://dotnet.microsoft.com/download](https://dotnet.microsoft.com/download).
+2.**Ensure .NET SDK is Installed:** This project is written in C#. Make sure you have the .NET SDK installed on your machine.
 
 3.**(Optional) Configure Audio Playback:** Ensure your system can play WAV audio files. The `System.Media` namespace in C# is used for this purpose.
 
