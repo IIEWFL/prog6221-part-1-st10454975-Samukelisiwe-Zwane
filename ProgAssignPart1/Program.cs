@@ -84,6 +84,11 @@ namespace ProgAssignPart1
 
         static void Main(string[] args)
         {
+            // this art was created using ascir art
+            //https://www.asciiart.eu/
+            //Kenneth Knowlton 
+            //https://www.kenknowlton.com/
+
             string asciiArt = @"    
   ____      _                                        _ _            
  / ___|   _| |__   ___ _ __ ___  ___  ___ _   _ _ __(_) |_ _   _    
@@ -98,6 +103,10 @@ namespace ProgAssignPart1
 
             Console.WriteLine(asciiArt);
 
+            //this code structure was taken from a youtube video
+            //https://www.youtube.com/watch?v=wAYN2BABnG0&ab_channel=MichaelHadley
+            //micheal hadely
+            //https://www.youtube.com/@mikewesthad
             try
             {
                 string audio = "ProgAssignPart1.greeting audio.wav";
@@ -139,6 +148,9 @@ namespace ProgAssignPart1
             Console.WriteLine("Greetings " + name + " how can i help you stay safer online " + "(enter exit to close program");
 
             string input;
+
+            //the structure of code was taken from in class examples
+            //mr. gologo
 
             do
             {
