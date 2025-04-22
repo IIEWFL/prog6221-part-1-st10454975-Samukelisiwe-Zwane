@@ -16,6 +16,10 @@ namespace ProgAssignPart1
         {
             string changeStringToLowerCase = question.ToLower().TrimEnd('?');
 
+            //this code structer was taken from stack overflow
+            //https://stackoverflow.com/questions/37569197/is-it-valid-to-return-from-inside-a-switch
+            //author = msl
+            //https://stackoverflow.com/users/3279825/msl?tab=profile
             switch (changeStringToLowerCase)
             {
                 case "how are you":
@@ -47,12 +51,12 @@ namespace ProgAssignPart1
                     Console.ForegroundColor = ConsoleColor.Cyan;
 
                     string askAboutResponse = "You can ask me anything related to staying safe online. I can assist you with the follwing: \n" +
-                        "Creating a strong and unique password \n " +
-                        "Identifying and avoiding phishing attemps \n"
-                        + "understanding multifactor authentification \n" +
-                        "preventing malware infections \n" +
-                        "Portecing of personal information \n" +
-                        "safe browsing practice";
+                        "⋆ Creating a strong and unique password \n " +
+                        "⋆ Identifying and avoiding phishing attemps \n"
+                        + "⋆ understanding multifactor authentification \n" +
+                        "⋆ preventing malware infections \n" +
+                        "⋆ Portecing of personal information \n" +
+                        "⋆ safe browsing practice";
 
                     Console.Write(askAboutResponse);
 
