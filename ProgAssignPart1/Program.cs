@@ -189,7 +189,7 @@ namespace ProgAssignPart1
 
                     Console.WriteLine("please enter your cyber security question.");
                 }
-               // Console.ForegroundColor = ConsoleColor.Red;
+                // Console.ForegroundColor = ConsoleColor.Red;
 
                 //Console.WriteLine("please enter your cyber security question");
 
