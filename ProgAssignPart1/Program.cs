@@ -12,16 +12,21 @@ namespace ProgAssignPart1
 {
     public class Program
     {
+        //created a method that takes in a string arg
         public static string GetBasicResponse(string question)
         {
+            // changed the string to lower and remove spection char to make the equating the string easier later
             string changeStringToLowerCase = question.ToLower().TrimEnd('?');
 
             //this code structer was taken from stack overflow
             //https://stackoverflow.com/questions/37569197/is-it-valid-to-return-from-inside-a-switch
             //author = msl
             //https://stackoverflow.com/users/3279825/msl?tab=profile
+
+            //siwtch statement to check if string mathces then change color of respenose using console.* we learned in class
             switch (changeStringToLowerCase)
             {
+
                 case "how are you":
 
                     Console.ForegroundColor = ConsoleColor.DarkCyan;
@@ -45,6 +50,8 @@ namespace ProgAssignPart1
                     Console.Write("you can ask me anything related to staying safe online! here are some key areas i can assist you with:\n");
 
                     Console.ForegroundColor = ConsoleColor.Yellow;
+
+                    //hyphens to add a divider
 
                     Console.WriteLine("------------------------------------------------------------------------------------------------------");
 
@@ -182,9 +189,9 @@ namespace ProgAssignPart1
 
                     Console.WriteLine("please enter your cyber security question.");
                 }
-                Console.ForegroundColor = ConsoleColor.Red;
+               // Console.ForegroundColor = ConsoleColor.Red;
 
-                Console.WriteLine("please enter your cyber security question");
+                //Console.WriteLine("please enter your cyber security question");
 
             } while (true);
         }
